@@ -1,0 +1,30 @@
+1.   https://aptonline.in/
+
+2.   https://sspensions.ap.gov.in/SSP
+
+3.   https://apsbcl.ap.gov.in/APSBCL/Views/Home.aspx
+
+4.   https://ahd.aptonline.in/AHMS/Views/Home.aspx
+
+5.   https://horticulturedept.ap.gov.in/Horticulture/(S(hdi2ism1o3a3v1ngzbyxgf4y))/MIP_New_Home_Page.aspx
+
+6.   https://tfoods.telangana.gov.in/
+
+7.   https://dalitbandhu.telangana.gov.in/
+
+8.   https://schooledu.telangana.gov.in/ISMS/#
+
+9.   https://tsht.telangana.gov.in/HNDM/Views/Home.aspx
+
+10.  https://edcet.tsche.ac.in/
+
+
+list:
+11. https://pgecet.tsche.ac.in/
+12. https://lawcet.tsche.ac.in/
+13. https://ecet.tsche.ac.in/
+14. https://icet.tsche.ac.in/
+15. https://crda.ap.gov.in/apcrdav2/views/home.aspx
+16. https://seedap.ap.gov.in/SEEDAP/UserInterface/Index.aspx
+17. https://portal-psc.ap.gov.in/Default
+18. https://uat-tscms.aptonline.in:9443/UMS
