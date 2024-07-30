@@ -2074,6 +2074,9 @@
     }
   }
   @media only screen and (max-width: 480px) {
+      .animated-section{
+      padding: 32px !important;
+    }
     .title-block h2{
       font-size: 32px !important;
     }
