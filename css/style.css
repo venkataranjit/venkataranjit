@@ -115,9 +115,9 @@
     border: 0;
     outline: 0;
     border: 2px solid var(--primaryColor);
-    color: #222;
+    color: #fff;
     text-shadow: none;
-    background-color: #fff;
+    background-color: var(--primaryColor);
     border-radius: 30px;
     font-family: poppins, Helvetica, sans-serif;
     -webkit-transition: all 0.3s ease-in-out;
@@ -143,8 +143,8 @@
   input[type="button"]:focus,
   input[type="submit"]:hover,
   input[type="submit"]:focus {
-    background-color: var(--primaryColor);
-    color: #fff;
+    background-color: #fff;
+    color: #333;
     border: 2px solid var(--primaryColor);
   }
   .btn-secondary {
@@ -2074,6 +2074,15 @@
     }
   }
   @media only screen and (max-width: 480px) {
+    .title-block h2{
+      font-size: 32px !important;
+    }
+    .title-block .sp-subtitle{
+      font-size: 14px !important;
+    }
+    .info-list {
+      margin-top: 0px !important;
+  }
     .section-title-block.first-style .section-description {
       margin: 7px 0 0;
       width: 100%;
@@ -2498,4 +2507,34 @@
   .btn-send{
     cursor: pointer;
     float: right;
+  }
+  .color-wrapper {
+    position: relative;
+    display: inline-block;
+    padding:0px !important;
+    margin: 0px;
+  }
+  
+  .color-input {
+    position: absolute;
+    left: 3px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    opacity: 0; /* Hide the input */
+    cursor: pointer;
+    z-index: 9;
+  }
+  
+  .color-display {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    left:3px;
+    background: url('../img/color-wheel.svg') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    border-radius: 4px; /* Optional styling */
+  }
+  .block-titlem0{
+    margin-bottom:0px;
   }
