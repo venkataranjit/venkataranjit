@@ -1,0 +1,85 @@
+<div id="ajax-page" class="ajax-page-content">
+  <div class="ajax-page-wrapper">
+    <div class="ajax-page-nav">
+      <div class="nav-item ajax-page-close-button">
+        <a id="ajax-page-close-button" href="#"
+          ><i class="lnr lnr-cross"></i
+        ></a>
+      </div>
+    </div>
+
+    <div class="ajax-page-title">
+      <h1>APTOnline</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8 col-md-8 portfolio-block">
+        <div class="owl-carousel portfolio-page-carousel">
+          <div class="item">
+            <img src="img/portfolio/projects/u1.jpg" alt="" />
+          </div>
+        </div>
+
+        <script type="text/javascript">
+          jQuery(document).ready(function ($) {
+            $(".portfolio-page-carousel").imagesLoaded(function () {
+              $(".portfolio-page-carousel").owlCarousel({
+                smartSpeed: 1200,
+                items: 1,
+                loop: true,
+                dots: true,
+                nav: true,
+                navText: false,
+                margin: 10,
+                autoHeight: true,
+              });
+            });
+          });
+        </script>
+      </div>
+
+      <div class="col-sm-4 col-md-4 portfolio-block">
+        <!-- Project Description -->
+        <div class="project-description">
+          <div class="block-title">
+            <h3>Description</h3>
+          </div>
+
+          <p class="text-justify">
+            APOnline is a dynamic digital gateway developed for providing a
+            range of services through a single, integrated platform. Designed to
+            enhance user accessibility and streamline interactions, the platform
+            aggregates various services into one user-friendly interface. Built
+            with modern web technologies, including ReactJS, APOnline ensures a
+            seamless, efficient, and engaging experience for its users. The
+            application reflects advanced front-end development practices,
+            focusing on performance and usability to meet the diverse needs of
+            its clientele.
+          </p>
+          <!-- /Project Description -->
+
+          <!-- Technology -->
+          <div class="tags-block">
+            <div class="block-title">
+              <h3>Technologies</h3>
+            </div>
+            <ul class="tags">
+              <li><a>HTML5</a></li>
+              <li><a>CSS3</a></li>
+              <li><a>Bootstrap 5</a></li>
+              <li><a>JavaScript</a></li>
+              <li><a>React Js</a></li>
+              <li><a>Figma</a></li>
+              <li><a>Photoshop</a></li>
+              <li><a>Sass</a></li>
+              <li><a>Git</a></li>
+              <li><a>GitHub</a></li>
+            </ul>
+          </div>
+          <!-- /Technology -->
+        </div>
+        <!-- Project Description -->
+      </div>
+    </div>
+  </div>
+</div>
