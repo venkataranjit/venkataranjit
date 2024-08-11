@@ -2522,12 +2522,13 @@ blockquote {
 .color-input {
   position: absolute;
   left: 3px;
-  top: 0;
+  top: -2px;
   width: 40px;
   height: 40px;
   opacity: 0; /* Hide the input */
   cursor: pointer;
   z-index: 9;
+  /* top: -2px; */
 }
 
 .color-display {
@@ -2538,6 +2539,7 @@ blockquote {
   background-size: contain;
   cursor: pointer;
   border-radius: 4px; /* Optional styling */
+  top: -2px;
 }
 .block-titlem0 {
   margin-bottom: 0px;
