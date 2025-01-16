@@ -1,7 +1,7 @@
 # Venkata Ranjit T - Front-End Developer / Full Stack Designer
 
 ## Professional Summary
-Innovative Front-End Developer and Full Stack Designer with over 9 years of experience in crafting seamless digital experiences. Specializing in React, HTML5, CSS3, JavaScript, and TypeScript, I bring creativity and technical acumen to build user-friendly, responsive, and dynamic web applications. With expertise in state management using Redux and Redux Toolkit, I ensure efficient and scalable solutions. Passionate about design and development, I focus on creating visually stunning and performant applications. I work on both the front-end and back-end to deliver full-stack solutions.
+"Innovative Front-End Developer with over 9 years of experience crafting seamless digital experiences, including 3 years of specialized work with React and Redux. Specializing in HTML5, CSS3, JavaScript, and the React ecosystem, I transform ideas into visually stunning, user-friendly websites. With expertise in React, I create reusable components that enhance efficiency and scalability, while leveraging Redux for robust state management across complex applications. Passionate about UI/UX design, I combine a designer’s creativity with a developer’s technical acumen to build responsive, dynamic web solutions that prioritize both performance and aesthetics."
 
 ## Skills & Expertise
 - **Front-End Technologies:** HTML5, CSS3, React, JavaScript, TypeScript
@@ -20,7 +20,7 @@ A React-based personal finance tracker to help users manage their finances effec
   - Track spending history
   - Visual data representation for better understanding
 
-[TrackMyMoney GitHub Repository](#)
+[TrackMyMoney GitHub Repository](https://github.com/venkataranjit/TrackMyMoney)
 
 ---
 
@@ -31,7 +31,7 @@ A task management app that helps users organize their tasks efficiently.
   - Mark tasks as completed
   - Mobile-responsive design
 
-[Taskly GitHub Repository](#)
+[Taskly GitHub Repository](https://github.com/venkataranjit/Taskly)
 
 ---
 
@@ -74,7 +74,7 @@ For more information about me and my work, please visit my [portfolio website](h
 ## Contact Information
 - **Email:** venkataranjit@live.com
 - **Phone:** +91-9966189948
-- **Location:** Hno.3393, Road No.5, New Mig, Opp A Park, BHEL, Hyderabad, Telangana - 502032
+- **Location:** BHEL, Hyderabad, Telangana - 502032
 
 ---
 
