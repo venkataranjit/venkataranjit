@@ -4,7 +4,7 @@
 "Innovative Front-End Developer with over 10 years of experience crafting seamless digital experiences, including 3 years of specialized work with React, Next.js and Redux. Specializing in HTML5, CSS3, JavaScript, and the React ecosystem, I transform ideas into visually stunning, user-friendly websites. With expertise in React, I create reusable components that enhance efficiency and scalability, while leveraging Redux for robust state management across complex applications. Passionate about UI/UX design, I combine a designer’s creativity with a developer’s technical acumen to build responsive, dynamic web solutions that prioritize both performance and aesthetics."
 
 ## Skills & Expertise
-- **Front-End Technologies:** HTML5, CSS3, React, JavaScript, TypeScript
+- **Front-End Technologies:** HTML5, CSS3, React, Next.js, JavaScript, TypeScript
 - **UI Frameworks:** Bootstrap 5, Material UI, Tailwind CSS, React Bootstrap
 - **CSS Preprocessors:** Sass
 - **Tools & Platforms:** Visual Studio Code, Sublime Text, npm, Git, GitHub, Emmet, MS Office
