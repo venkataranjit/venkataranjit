@@ -2559,5 +2559,5 @@ blockquote {
   margin: 10px auto 6px;
 }
 .ongoing{
-  background: #999;
+  background: #999 !important;
 }
