@@ -2558,3 +2558,6 @@ blockquote {
   border-radius: 16px;
   margin: 10px auto 6px;
 }
+.ongoing{
+  background: #999;
+}
