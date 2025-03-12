@@ -5,7 +5,7 @@
 
 ## Skills & Expertise
 - **Front-End Technologies:** HTML5, CSS3, React, Next.js, JavaScript, Jquery, TypeScript
-- **UI Frameworks & Libraries:** Bootstrap 5, Material UI, Tailwind CSS, React Bootstrap
+- **UI Frameworks & Libraries:** Bootstrap 5,Tailwind CSS, React Bootstrap,  Material UI
 - **Styling & Preprocessors:** Sass
 - **Development Tools & Platforms:** Visual Studio Code, Sublime Text, npm, Git, GitHub, Emmet, MS Office
 - **Design & Prototyping:** Figma, Adobe XD, Photoshop, Illustrator, FigJam
