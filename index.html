@@ -83,17 +83,14 @@
           <div class="social-links">
             <ul>
               <li>
-                <a href="#" target="_blank"
+                <a href="https://github.com/venkataranjit" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/venkataranjit" target="_blank"
                   ><i class="fab fa-linkedin-in"></i
                 ></a>
-              </li>
-              <li>
-                <a href="#" target="_blank"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
               </li>
             </ul>
           </div>
@@ -127,7 +124,7 @@
             />
             <div class="color-display fa-spin"></div>
           </div>
-
+          <div class="defaultColor" onclick="defaultColor()"></div>
           <div class="lmpixels-arrow-right">
             <i class="lnr lnr-chevron-right"></i>
           </div>
@@ -1029,7 +1026,23 @@
 
       function updateColor(color) {
         document.documentElement.style.setProperty("--primaryColor", color);
+        localStorage.setItem("color", color);
       }
+      const savedColor = localStorage.getItem("color");
+      if (savedColor) {
+        document.documentElement.style.setProperty(
+          "--primaryColor",
+          savedColor
+        );
+      } else {
+        defaultColor(); // Set default color if none is saved
+      }
+
+      const defaultColor = () => {
+        const color = "#04b4e0"; // Default color
+        document.documentElement.style.setProperty("--primaryColor", color);
+        localStorage.setItem("color", color);
+      };
     </script>
   </body>
 </html>

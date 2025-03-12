@@ -2551,3 +2551,10 @@ blockquote {
 .text-justify {
   text-align: justify;
 }
+.defaultColor {
+  height: 32px;
+  width: 32px;
+  background: #04b4e0;
+  border-radius: 16px;
+  margin: 10px auto 6px;
+}
