@@ -56,7 +56,7 @@ h6 {
   font-size: 14px;
 }
 a {
-  color: #09c;
+  color: var(--primaryColor);
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -2558,6 +2558,24 @@ blockquote {
   border-radius: 16px;
   margin: 10px auto 6px;
 }
-.ongoing{
+.ongoing {
   background: #999 !important;
+}
+.docs h5 {
+  margin: 20px 0 10px 0;
+}
+.docs .new-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin: 10px 0;
+}
+.docs .new-list li {
+  margin: 5px 0;
+}
+.docs .value {
+  font-size: 13px;
+}
+.mt-25 {
+  margin-top: 25px;
+  width: 100%;
 }
