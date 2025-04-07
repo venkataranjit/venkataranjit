@@ -1680,11 +1680,13 @@
         const totalAmount = hourlyRate * hours * 100; // Convert to paise for Razorpay
 
         const options = {
-          key: key.apiTest, // Replace with your Razorpay key
+          key: key.apiLive, // Replace with your Razorpay key
           amount: totalAmount,
           currency: "INR",
           name: "Venkata Ranjit",
-          description: `Name: ${name}, Task: ${task}, Hours: ${hours}`,
+          description: `Name: ${name},
+          Task: ${task},
+          Hours: ${hours}`,
           image: "./img/main_photo.jpg",
           prefill: {
             name: name,
@@ -1695,15 +1697,15 @@
             color: primaryColor,
           },
           handler: function (response) {
+            form.reset();
+            priceText.innerText = "0";
             alert(
               "Payment Successful!\nPayment ID: " + response.razorpay_payment_id
             );
             // Optionally: Send payment success + user data to your server here
             // Clear form
-            form.reset();
 
             // Reset total price display
-            priceText.innerText = "0";
           },
         };
 
