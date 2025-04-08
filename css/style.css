@@ -2579,3 +2579,7 @@ blockquote {
   margin-top: 25px;
   width: 100%;
 }
+.new-style {
+  list-style: disc !important;
+  list-style-position: inside !important;
+}
